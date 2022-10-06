@@ -56,7 +56,7 @@ const MyPortfolio = () => {
                     <div className="card-body">
                         <h2 className="card-title text-Y">Shoes</h2>
                         <div className="card-actions justify-center">
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <p>Shoes store design. </p>
                         </div>
                     </div>
                 </div>
