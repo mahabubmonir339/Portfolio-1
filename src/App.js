@@ -11,7 +11,7 @@ import MySkill from './Components/MySkill/MySkill';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App select-none">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />

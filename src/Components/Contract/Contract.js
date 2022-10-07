@@ -43,14 +43,14 @@ const Contract = () => {
                     </div>
                     <br /><br />
                     <div className='flex justify-start'>
-                        <button class=" rounded-full w-64 h-10 border-2 border-Y text-2xl ">  SEND MESSAGE  <i class="fa-regular fa-envelope-open text-Y ml-4"></i></button>
+                        <button class="btn rounded-full w-64 h-10 border-2 border-Y text-2xl ">  SEND MESSAGE  <i class="fa-regular fa-envelope-open text-Y ml-4"></i></button>
                     </div>
                 </div>
             </section>
             <div class="btn-group grid grid-cols-2">
-                <Link to='/myPortfolio' className='grid justify-items-end m-4'><button class="btn btn-outline text-white"><i class="fa-solid fa-arrow-left text-Y mr-4"></i> MY PORTFOLIO </button></Link>
+                <p className='grid justify-items-end m-4'><button class="btn btn-outline text-white"><Link to='/myPortfolio'><i class="fa-solid fa-arrow-left text-Y mr-4"></i> MY PORTFOLIO </Link></button></p>
 
-                <Link to='/blog' className='grid justify-items-start m-4'><button class="btn btn-outline text-white">MY BLOG<i class="fa-solid fa-arrow-right text-Y ml-4"></i></button></Link>
+                <p className='grid justify-items-start m-4'><button class="btn btn-outline text-white"><Link to='/blog'> MY BLOG<i class="fa-solid fa-arrow-right text-Y ml-4"></i></Link></button></p>
             </div>
         </div>
     );

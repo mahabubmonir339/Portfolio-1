@@ -6,20 +6,20 @@ const Navbar = () => {
         <div className="navbar bg-[#334155]">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <label tabIndex={0} className="btn btn-ghost btn-circle  bg-[#cbd5e1]">
+                    <label tabIndex={0} className="btn btn-ghost btn-circle  bg-Y">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-[#334155] text-Y rounded-box w-52">
-                        <li><Link to="/">HOME PAGE</Link></li>
-                        <li><Link to="/about">ABOUT ME</Link ></li>
-                        <li><Link to="/myPortfolio">MY PORTFOLIO</Link></li>
-                        <li><Link to="/contract">CONTRACT</Link></li>
-                        <li><Link to="/blog">MY BLOG</Link></li>
+                        <li><Link to="/"><i class="fa-solid fa-house test-start mr-4 text-white"></i> HOME PAGE</Link></li>
+                        <li><Link to="/about"><i class="fa-solid fa-address-card test-start mr-4 text-white"></i> ABOUT ME</Link ></li>
+                        <li><Link to="/myPortfolio"><i class="fa-solid fa-code-fork test-start mr-4 text-white"></i> MY PORTFOLIO</Link></li>
+                        <li><Link to="/contract"><i class="fa-solid fa-phone test-start mr-4 text-white"></i> CONTRACT</Link></li>
+                        <li><Link to="/blog"><i class="fa-solid fa-cubes test-start mr-4 text-white"></i> MY BLOG</Link></li>
                     </ul>
                 </div>
             </div>
             <div className="navbar-center">
-                <button type="submit"><Link to="/" className="normal-case text-5xl font-bold text-[#fde047]">MAHABUB HOSSEN MONIR</Link></button>
+                <button type="submit"><Link to="/" className="normal-case text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-[#06b6d4] to-[#fde047]">MAHABUB HOSSEN MONIR</Link></button>
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost btn-circle text-[#f5f5f4]">

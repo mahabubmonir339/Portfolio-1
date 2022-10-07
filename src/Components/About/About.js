@@ -13,11 +13,11 @@ const About = () => {
                     <h3 className='text-start'>AGE: <span className='text-l font-bold'> 25 YEAR</span></h3>
                     <h3 className='text-start'>Nationallity: <span className='text-l font-bold'>Bangladeshi</span></h3>
                     <h3 className='text-start'>Freelance:  <span className='text-l font-bold'>Available</span></h3>
-                    <button class="rounded-full border-2 border-Y">DOWNLOAD CV <span><i class="fa-solid fa-download text-Y ml-4"></i></span></button>
+                    <button class="btn rounded-full border-2 border-Y">DOWNLOAD CV <span><i class="fa-solid fa-download text-Y ml-4"></i></span></button>
                 </div>
                 <div className='grid justify-around col-span-1'><br /><br />
                     <h3 className='text-start'>Address: <span className='text-l font-bold'>  Dhaka, Banhladesh.</span></h3>
-                    <h3 className='text-start'>Phone: <span className='text-l font-bold'> 01763000339/ 01627668383</span></h3>
+                    <h3 className='text-start'>Phone: <span className='text-l font-bold'> 01763000339 / 01627668383</span></h3>
                     <h3 className='text-start'>Mail: <span className='text-l font-bold'> mahabubhossenmonir@gmail.com</span></h3>
                     <h3 className='text-start'>Language: <span className='text-l font-bold'> Bangla , English</span></h3>
                 </div>
@@ -60,12 +60,11 @@ const About = () => {
                 </div>
             </section><br /><br />
             <br />
-            <section><Link to='/skill' className='grid justify-items-end m-4'><button class="btn btn-outline text-white rounded-full border-2 border-Y">MY SKILL <i class="fa-solid fa-arrow-up-right-from-square ml-4"></i></button></Link>
+            <section><p className='grid justify-items-end m-4'><button class="btn btn-outline text-white rounded-full border-2 border-Y"><Link to='/skill'>MY SKILL <i class="fa-solid fa-arrow-up-right-from-square ml-4"></i></Link></button></p>
             </section><br /><br />
             <div class="btn-group grid grid-cols-2">
-                <Link to='/' className='grid justify-items-end m-4'><button class="btn btn-outline text-white"><i class="fa-solid fa-arrow-left text-Y mr-4"></i> Home </button></Link>
-
-                <Link to='/myPortfolio' className='grid justify-items-start m-4'><button class="btn btn-outline text-white">My Portfolio <i class="fa-solid fa-arrow-right text-Y ml-4"></i></button></Link>
+                <p className='grid justify-items-end m-5'><button class="btn btn-outline text-white"><Link to='/'><i class="fa-solid fa-arrow-left text-Y mr-4"></i> Home </Link></button></p>
+                <p className='grid justify-items-start m-5'><button class="btn btn-outline text-white"><Link to='/myPortfolio'> My Portfolio <i class="fa-solid fa-arrow-right text-Y ml-4"></i> </Link></button></p>
             </div>
         </div>
     );
