@@ -50,7 +50,7 @@ const MySkill = () => {
                 </div>
             </section>
             <div class="btn-group grid grid-cols-1">
-                <Link to='/about' className='grid justify-items-center m-4'><button class="btn btn-outline text-white"><i class="fa-solid fa-arrow-left text-Y mr-4"></i> ABOUT</button></Link>
+                <p className='grid justify-items-center m-4'><Link to='/about'><button class="btn btn-outline text-white"><i class="fa-solid fa-arrow-left text-Y mr-4"></i> ABOUT</button></Link></p>
             </div>
         </div>
     );

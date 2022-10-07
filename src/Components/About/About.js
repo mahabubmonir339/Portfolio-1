@@ -60,11 +60,11 @@ const About = () => {
                 </div>
             </section><br /><br />
             <br />
-            <section><p className='grid justify-items-end m-4'><button class="btn btn-outline text-white rounded-full border-2 border-Y"><Link to='/skill'>MY SKILL <i class="fa-solid fa-arrow-up-right-from-square ml-4"></i></Link></button></p>
+            <section><p className='grid justify-items-end m-4'><Link to='/skill'><button class="btn btn-outline text-white rounded-full border-2 border-Y">MY SKILL <i class="fa-solid fa-arrow-up-right-from-square ml-4"></i></button></Link></p>
             </section><br /><br />
             <div class="btn-group grid grid-cols-2">
-                <p className='grid justify-items-end m-5'><button class="btn btn-outline text-white"><Link to='/'><i class="fa-solid fa-arrow-left text-Y mr-4"></i> Home </Link></button></p>
-                <p className='grid justify-items-start m-5'><button class="btn btn-outline text-white"><Link to='/myPortfolio'> My Portfolio <i class="fa-solid fa-arrow-right text-Y ml-4"></i> </Link></button></p>
+                <p className='grid justify-items-end m-5'><Link to='/'><button class="btn btn-outline text-white"><i class="fa-solid fa-arrow-left text-Y mr-4"></i> Home </button></Link></p>
+                <p className='grid justify-items-start m-5'><Link to='/myPortfolio'><button class="btn btn-outline text-white"> My Portfolio <i class="fa-solid fa-arrow-right text-Y ml-4"></i></button> </Link></p>
             </div>
         </div>
     );

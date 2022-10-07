@@ -11,13 +11,13 @@ const Home = () => {
                     <div className='ml-12'>
                         <h1 className="text-5xl text-center font-bold">I'M MAHABUB HOSSEN MONIR. <hr /> WEB DEVELOPER</h1>
                         <p className="py-6 text-center">I'm a Tunisian based web designer and developer. Front-end & back-end focused on crafting clean & user-frindly experiences, I am passionate building excellent software that improves the lives of those around me.</p>
-                        <p className='grid justify-items-end m-4'><button class="btn btn-outline text-white rounded-full border-2 border-Y"><Link to='/contract'>Contract Me <i class="fa-solid fa-arrow-up-right-from-square ml-4"></i></Link></button>
+                        <p className='grid justify-items-end m-4'><Link to='/contract'><button class="btn btn-outline text-white rounded-full border-2 border-Y"> Contract Me <i class="fa-solid fa-arrow-up-right-from-square ml-4"></i></button></Link>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="btn-group grid grid-cols-1">
-                <p className='grid justify-items-center m-4'><button class="btn btn-outline text-white"><Link to='/about'> ABOUT <i class="fa-solid fa-arrow-right text-Y ml-4"></i></Link></button></p>
+                <p className='grid justify-items-center m-4'><Link to='/about'><button class="btn btn-outline text-white"> ABOUT <i class="fa-solid fa-arrow-right text-Y ml-4"></i></button></Link></p>
             </div>
         </div>
     );

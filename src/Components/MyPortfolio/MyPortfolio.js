@@ -99,9 +99,9 @@ const MyPortfolio = () => {
             </section>
             <br /><br />
             <div class="btn-group grid grid-cols-2">
-                <p className='grid justify-items-end m-4'><button class="btn btn-outline text-white"><Link to='/about'><i class="fa-solid fa-arrow-left text-Y mr-4"></i> About </Link></button></p>
+                <p className='grid justify-items-end m-4'><Link to='/about'><button class="btn btn-outline text-white"><i class="fa-solid fa-arrow-left text-Y mr-4"></i> About </button></Link></p>
 
-                <p className='grid justify-items-start m-4'><button class="btn btn-outline text-white"><Link to='/contract'>Contract<i class="fa-solid fa-arrow-right text-Y ml-4"></i></Link></button></p>
+                <p className='grid justify-items-start m-4'><Link to='/contract'><button class="btn btn-outline text-white">Contract<i class="fa-solid fa-arrow-right text-Y ml-4"></i></button></Link></p>
             </div>
         </div>
     );

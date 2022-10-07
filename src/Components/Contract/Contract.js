@@ -48,9 +48,9 @@ const Contract = () => {
                 </div>
             </section>
             <div class="btn-group grid grid-cols-2">
-                <p className='grid justify-items-end m-4'><button class="btn btn-outline text-white"><Link to='/myPortfolio'><i class="fa-solid fa-arrow-left text-Y mr-4"></i> MY PORTFOLIO </Link></button></p>
+                <p className='grid justify-items-end m-4'><Link to='/myPortfolio'><button class="btn btn-outline text-white"><i class="fa-solid fa-arrow-left text-Y mr-4"></i> MY PORTFOLIO </button></Link></p>
 
-                <p className='grid justify-items-start m-4'><button class="btn btn-outline text-white"><Link to='/blog'> MY BLOG<i class="fa-solid fa-arrow-right text-Y ml-4"></i></Link></button></p>
+                <p className='grid justify-items-start m-4'><Link to='/blog'><button class="btn btn-outline text-white"> MY BLOG<i class="fa-solid fa-arrow-right text-Y ml-4"></i></button></Link></p>
             </div>
         </div>
     );
