@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import cv from '../../assets/Document/MahabubCV.pdf';
 
 const About = () => {
     return (
@@ -13,7 +14,7 @@ const About = () => {
                     <h3 className='text-start'>AGE: <span className='text-l font-bold'> 25 YEAR</span></h3>
                     <h3 className='text-start'>Nationallity: <span className='text-l font-bold'>Bangladeshi</span></h3>
                     <h3 className='text-start'>Freelance:  <span className='text-l font-bold'>Available</span></h3>
-                    <button class="btn rounded-full border-2 border-Y">DOWNLOAD CV <span><i class="fa-solid fa-download text-Y ml-4"></i></span></button>
+                    <a href={cv} download><button class="btn rounded-full border-2 border-Y">DOWNLOAD CV <span><i class="fa-solid fa-download text-Y ml-4"></i></span></button></a>
                 </div>
                 <div className='grid justify-around col-span-1'><br /><br />
                     <h3 className='text-start'>Address: <span className='text-l font-bold'>  Dhaka, Banhladesh.</span></h3>

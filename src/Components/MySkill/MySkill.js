@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import cv from '../../assets/Document/MahabubCV.pdf';
 
 const MySkill = () => {
     return (
@@ -46,7 +47,7 @@ const MySkill = () => {
                     </h3>
                 </div>
                 <div className='grid justify-around col-span-1'>
-                    <br /><button class="btn rounded-full border-2 border-Y">DOWNLOAD CV <span><i class="fa-solid fa-download text-Y ml-4"></i></span></button>
+                    <br /><a href={cv} download><button class="btn rounded-full border-2 border-Y">DOWNLOAD CV <span><i class="fa-solid fa-download text-Y ml-4"></i></span></button></a>
                 </div>
             </section>
             <div class="btn-group grid grid-cols-1">
