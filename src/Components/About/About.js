@@ -14,7 +14,6 @@ const About = () => {
                     <h3 className='text-start'>AGE: <span className='text-l font-bold'> 25 YEAR</span></h3>
                     <h3 className='text-start'>Nationallity: <span className='text-l font-bold'>Bangladeshi</span></h3>
                     <h3 className='text-start'>Freelance:  <span className='text-l font-bold'>Available</span></h3>
-                    <a href={cv} download><button class="btn rounded-full border-2 border-Y">DOWNLOAD CV <span><i class="fa-solid fa-download text-Y ml-4"></i></span></button></a>
                 </div>
                 <div className='grid justify-around col-span-1'><br /><br />
                     <h3 className='text-start'>Address: <span className='text-l font-bold'>  Dhaka, Banhladesh.</span></h3>
@@ -59,6 +58,8 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <a href={cv} download><button class="btn rounded-full border-2 border-Y">DOWNLOAD CV <span><i class="fa-solid fa-download text-Y ml-4"></i></span></button></a>
+
             </section><br /><br />
             <br />
             <section><p className='grid justify-items-end m-4'><Link to='/skill'><button class="btn btn-outline text-white rounded-full border-2 border-Y">MY SKILL <i class="fa-solid fa-arrow-up-right-from-square ml-4"></i></button></Link></p>
